@@ -1,3 +1,4 @@
+"""
 import sys, os, warnings, traceback
 sys.path.append(os.path.dirname(__file__))
 print(os.path.dirname(__file__))
@@ -35,3 +36,4 @@ else:
     except Exception as err:
         warnings.warn("Could not import Visualisation-Module.")
 
+"""
